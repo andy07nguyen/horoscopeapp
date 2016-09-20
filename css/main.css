@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	top: 380px;
+	font-family: 'PT Sans Caption', sans-serif;
+	color: white;
+}
+
+#yourSign {
+	position: relative;
+	color: white;
+	top: -560px;
+	font-size: 25px;
+}
+
+#yourHoroscope {
+	position: relative;
+	color: white;
+	top: -390px;
+	text-align: center;
+}
+
+#signIcon {
+	position: relative;
+	z-index: 4;
+	top: -500px;
+	left: 542px;
+}
+
+img {
+	z-index: -1;
+	margin-top: -42px;
+	margin-bottom: -88px;
+}
+
+img.resize {
+	width: 100%;
+	height: 643px; 
+}
+
+form input {
+	position: relative;
+	left: 450px;
+	bottom: 100px;
+	width: 30%;
+	height: 30px;
+	border-radius: 5px;
+	text-indent: 35px;
+}
+
+form button {
+	position: relative;
+	left: 210px;
+	bottom: 30px;
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #337ab7;
+	color: white;
+	font-size: 15px;
+}
